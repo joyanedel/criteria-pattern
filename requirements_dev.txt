@@ -3,7 +3,7 @@
 # Install packages from requirements.txt
 -r requirements.txt
 
-Faker>=29.0.0,<30.0.0  # https://faker.readthedocs.io/en/master/
+Faker>=28.0.0,<31.0.0  # https://faker.readthedocs.io/en/master/
 pytest>=8.0.0,<9.0.0  # https://docs.pytest.org
 pytest-asyncio>=0.0.0,<1.0.0  # https://pytest-asyncio.readthedocs.io
 pytest-randomly>=3.0.0,<4.0.0  # https://github.com/pytest-dev/pytest-randomly
@@ -11,4 +11,4 @@ coverage[toml]>=7.0.0,<8.0.0  # https://coverage.readthedocs.io
 ruff>=0.0.0,<1.0.0  # https://docs.astral.sh/ruff
 mypy[reports]>=1.0.0,<2.0.0  # https://mypy.readthedocs.io
 bandit>=1.0.0,<2.0.0  # https://bandit.readthedocs.io
-pre-commit>=3.0.0,<4.0.0  # https://pre-commit.com
+pre-commit>=3.0.0,<5.0.0  # https://pre-commit.com
