@@ -2,11 +2,11 @@
 Order direction module.
 """
 
-from enum import StrEnum, unique
+from enum import Enum, unique
 
 
 @unique
-class OrderDirection(StrEnum):
+class OrderDirection(str, Enum):
     """
     OrderDirection enum class.
 
