@@ -15,7 +15,7 @@ def parse_rules(rule_data: dict[str, Any]) -> Criteria:
     """
     filters = []
 
-    for field, filter_def in rule_data['filters'].items():
+    for field, filter_def in rule_data.items():
         operator = _convert_operator(filter_def['operator'])
         value = filter_def['value']
         # Create filter and add message as an attribute
