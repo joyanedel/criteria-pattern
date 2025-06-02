@@ -18,7 +18,6 @@ authors = [{ name = 'Adria Montoto' }]
 maintainers = [
     { name = 'Jesús Oyanedel' }
 ]
-license = './LICENSE.md'
 classifiers = [
     'License :: OSI Approved :: MIT License',
     'Intended Audience :: Developers',
